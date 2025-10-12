@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme inline {
+    --color-bg: #141318;
+    --color-fg: #e5e5e5;
+    --color-fg-important: #e6e6e6;
+    --color-primary: #b894f4;
+    --color-primary-text: #c8bffb;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    @apply bg-bg text-fg;
+}
